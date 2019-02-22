@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LibServer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP1839.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/LibServer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Teach\18-19-1\软件实习\CGridCtrl单文档实例网络版\LibServer\LibServerDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP1839.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP183A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/LibServer.pdb" /machine:I386 /out:"Release/LibServer.exe" 
+".\Release\CAdoDB.obj"
+".\Release\CMessg.obj"
+".\Release\DataSocket.obj"
+".\Release\excel.obj"
+".\Release\LibServer.obj"
+".\Release\LibServerDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\LibServer.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP183A.tmp"
+<h3>Output Window</h3>
+Compiling...
+LibServerDlg.cpp
+E:\Teach\18-19-1\软件实习\CGridCtrl单文档实例网络版\LibServer\LibServerDlg.cpp(309) : warning C4101: 'i' : unreferenced local variable
+E:\Teach\18-19-1\软件实习\CGridCtrl单文档实例网络版\LibServer\LibServerDlg.cpp(311) : warning C4101: 'name' : unreferenced local variable
+E:\Teach\18-19-1\软件实习\CGridCtrl单文档实例网络版\LibServer\LibServerDlg.cpp(346) : warning C4101: 'i' : unreferenced local variable
+E:\Teach\18-19-1\软件实习\CGridCtrl单文档实例网络版\LibServer\LibServerDlg.cpp(348) : warning C4101: 'name' : unreferenced local variable
+E:\Teach\18-19-1\软件实习\CGridCtrl单文档实例网络版\LibServer\LibServerDlg.cpp(522) : warning C4101: 'secs' : unreferenced local variable
+E:\Teach\18-19-1\软件实习\CGridCtrl单文档实例网络版\LibServer\LibServerDlg.cpp(522) : warning C4101: 'mbsec' : unreferenced local variable
+E:\Teach\18-19-1\软件实习\CGridCtrl单文档实例网络版\LibServer\LibServerDlg.cpp(334) : warning C4715: 'ThreadAccept' : not all control paths return a value
+E:\Teach\18-19-1\软件实习\CGridCtrl单文档实例网络版\LibServer\LibServerDlg.cpp(363) : warning C4715: 'CLibServerDlg::WelcomeNewClient' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+LibServer.exe - 0 error(s), 8 warning(s)
+</pre>
+</body>
+</html>
